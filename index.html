@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="looxsee looksee AR rewards branding app gamified advertisement">
     <meta name="author" content="">
+    <meta name="referrer" content="origin">
 
     <title>Looxsee</title>
 
@@ -181,7 +182,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+            <form id="contactForm" name="sentMessage" novalidate method="POST" action="https://formspree.io/lexishangraw@gmail.com">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -189,17 +190,17 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" name="_replyto" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control" name="phone" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" name="text" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
